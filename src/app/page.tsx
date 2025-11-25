@@ -63,39 +63,48 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
             src="/generated/hero-modern-white-kitchen.png"
             alt="Luxury kitchen transformation"
             fill
-            className="object-cover"
+            className="object-cover scale-105 animate-in fade-in duration-1000"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30" />
+          <div className="absolute inset-0 hero-gradient" />
         </div>
 
+        {/* Content */}
         <div className="relative z-10 container mx-auto px-4 text-white">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
+          <div className="max-w-4xl animate-in slide-in-from-bottom-8 duration-700">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-white text-shadow-lg leading-tight">
               Crafting Your Vision Into Reality
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
+            <p className="text-xl md:text-2xl lg:text-3xl mb-10 text-white/95 leading-relaxed text-shadow-md max-w-3xl">
               Premium custom cabinetry for kitchens, living rooms, and personalized home storage solutions.
-              Exceptional quality. Meticulous attention to detail.
+              <span className="block mt-2 font-semibold text-primary">Exceptional quality. Meticulous attention to detail.</span>
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-300">
               <Link href="/gallery#contact">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 hover:shadow-lg text-primary-foreground font-semibold text-lg px-10 py-7 transition-all duration-200">
                   Book Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link href="/gallery">
-                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 font-semibold text-lg px-8 py-6 backdrop-blur-sm">
+                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 hover:shadow-lg text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm transition-all duration-200">
                   View Our Work
                 </Button>
               </Link>
             </div>
+          </div>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+          <div className="w-6 h-10 border-2 border-white/40 rounded-full flex items-start justify-center p-2">
+            <div className="w-1.5 h-2 bg-white/60 rounded-full"></div>
           </div>
         </div>
       </section>
@@ -235,25 +244,25 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-accent text-accent-foreground">
+      <section className="py-24 bg-accent text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-white">
               Ready to Transform Your Space?
             </h2>
-            <p className="text-xl mb-8 text-white/90 leading-relaxed">
+            <p className="text-xl md:text-2xl mb-12 text-white/95 leading-relaxed max-w-3xl mx-auto">
               Schedule a free consultation to discuss your vision. Our team will guide you through every step
               of creating your dream kitchen, living room, or custom storage solution.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/gallery#contact">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 hover:shadow-lg text-primary-foreground font-semibold text-lg px-10 py-7 transition-all duration-200">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <a href="tel:+19052269121">
-                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white/30 font-semibold text-lg px-8 py-6 backdrop-blur-sm">
+                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 hover:shadow-lg text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm transition-all duration-200">
                   Call: (905) 226-9121
                 </Button>
               </a>

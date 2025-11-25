@@ -306,3 +306,49 @@ input::placeholder, textarea::placeholder {
 .shadow-md {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* Dark background overrides for proper contrast */
+.bg-accent h1,
+.bg-accent h2,
+.bg-accent h3,
+.bg-accent h4,
+.bg-accent h5,
+.bg-accent h6 {
+  color: white !important;
+}
+
+.bg-accent p,
+.bg-accent li,
+.bg-accent span {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Hero section enhancements */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+/* Text shadow for readability on images */
+.text-shadow-lg {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-shadow-md {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Premium button hover effects */
+button:hover,
+a button:hover {
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
