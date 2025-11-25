@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "Purebrook Kitchens - Premium Custom Cabinetry",
+  description: "Premium custom cabinetry for kitchens, living rooms, and personalized home storage solutions. Exceptional quality and craftsmanship in the Greater Toronto Area.",
 };
 
 export default function RootLayout({
