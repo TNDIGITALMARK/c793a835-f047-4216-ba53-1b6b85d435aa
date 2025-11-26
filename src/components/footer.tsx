@@ -4,11 +4,11 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 export function Footer() {
   return (
     <footer className="bg-accent text-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="container mx-auto px-4 py-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Company Info */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold font-serif text-white mb-6">Purebrook Kitchens</h3>
+          <div className="space-y-3">
+            <h3 className="text-2xl font-bold font-serif text-white mb-4">Purebrook Kitchens</h3>
             <p className="text-white/90 leading-relaxed text-base">
               Premium custom cabinetry crafted with exceptional attention to detail.
               Transforming visions into functional, beautiful spaces.
@@ -17,8 +17,8 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-xl font-semibold mb-6 text-white">Quick Links</h4>
-            <ul className="space-y-3">
+            <h4 className="text-xl font-semibold mb-4 text-white">Quick Links</h4>
+            <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-white/90 hover:text-primary transition-colors duration-200 inline-block">
                   Home
@@ -44,8 +44,8 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-xl font-semibold mb-6 text-white">Contact Us</h4>
-            <ul className="space-y-4">
+            <h4 className="text-xl font-semibold mb-4 text-white">Contact Us</h4>
+            <ul className="space-y-3">
               <li>
                 <a
                   href="tel:+19052269121"
@@ -74,7 +74,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/20 mt-12 pt-8 text-center">
+        <div className="border-t border-white/20 mt-8 pt-6 text-center">
           <p className="text-white/70 text-sm">&copy; {new Date().getFullYear()} Purebrook Kitchens. All rights reserved.</p>
         </div>
       </div>
