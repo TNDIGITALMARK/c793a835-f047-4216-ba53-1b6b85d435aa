@@ -37,7 +37,7 @@ export function Header() {
               Gallery
             </Link>
             <Link
-              href="/gallery#contact"
+              href="/contact"
               className="text-foreground hover:text-primary transition-colors font-medium"
             >
               Contact
@@ -53,7 +53,7 @@ export function Header() {
               <Phone className="w-5 h-5" />
               <span className="font-medium">+1 (905) 226-9121</span>
             </a>
-            <Link href="/gallery#contact">
+            <Link href="/contact">
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium">
                 Book Consultation
               </Button>

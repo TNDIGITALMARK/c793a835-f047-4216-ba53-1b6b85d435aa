@@ -86,7 +86,7 @@ export default function Home() {
               <span className="block mt-2 font-semibold text-primary">Exceptional quality. Meticulous attention to detail.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-300 pb-4">
-              <Link href="/gallery#contact">
+              <Link href="/contact">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-10 py-7">
                   Book Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -255,7 +255,7 @@ export default function Home() {
               of creating your dream kitchen, living room, or custom storage solution.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pb-8">
-              <Link href="/gallery#contact">
+              <Link href="/contact">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-10 py-7">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />

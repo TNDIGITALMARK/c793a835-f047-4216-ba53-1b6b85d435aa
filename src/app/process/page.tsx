@@ -280,7 +280,7 @@ export default function ProcessPage() {
               Schedule a free consultation today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/gallery#contact">
+              <Link href="/contact">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
