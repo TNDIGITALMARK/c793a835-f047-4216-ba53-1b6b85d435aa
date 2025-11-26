@@ -85,15 +85,15 @@ export default function Home() {
               Premium custom cabinetry for kitchens, living rooms, and personalized home storage solutions.
               <span className="block mt-2 font-semibold text-primary">Exceptional quality. Meticulous attention to detail.</span>
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-300">
+            <div className="flex flex-col sm:flex-row gap-6 animate-in slide-in-from-bottom-4 duration-700 delay-300 pb-4">
               <Link href="/gallery#contact">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 hover:shadow-lg text-primary-foreground font-semibold text-lg px-10 py-7 transition-all duration-200">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-10 py-7">
                   Book Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <Link href="/gallery">
-                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 hover:shadow-lg text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm transition-all duration-200">
+                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm">
                   View Our Work
                 </Button>
               </Link>
@@ -193,7 +193,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="text-center">
+          <div className="text-center pb-4">
             <Link href="/gallery">
               <Button size="lg" variant="outline" className="font-semibold">
                 View Full Portfolio
@@ -232,7 +232,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="text-center">
+          <div className="text-center pb-4">
             <Link href="/process">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold">
                 Learn More About Our Process
@@ -254,15 +254,15 @@ export default function Home() {
               Schedule a free consultation to discuss your vision. Our team will guide you through every step
               of creating your dream kitchen, living room, or custom storage solution.
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center pb-8">
               <Link href="/gallery#contact">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 hover:shadow-lg text-primary-foreground font-semibold text-lg px-10 py-7 transition-all duration-200">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-10 py-7">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
               <a href="tel:+19052269121">
-                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 hover:shadow-lg text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm transition-all duration-200">
+                <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-2 border-white/40 hover:border-white/60 font-semibold text-lg px-10 py-7 backdrop-blur-sm">
                   Call: (905) 226-9121
                 </Button>
               </a>
