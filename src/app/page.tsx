@@ -62,7 +62,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-40 lg:pt-48">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 container mx-auto px-4 text-white">
+        <div className="relative z-10 container mx-auto px-4 text-white pt-32 md:pt-40 lg:pt-48">
           <div className="max-w-4xl animate-in slide-in-from-bottom-8 duration-700">
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 text-white text-shadow-lg leading-tight">
               Crafting Your Vision Into Reality
