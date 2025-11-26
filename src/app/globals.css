@@ -21,8 +21,8 @@ All colors MUST be HSL.
   --popover: 0 0% 100%;
   --popover-foreground: 25 15% 20%;
 
-  /* Primary: Rich warm gold (cabinet hardware accent) */
-  --primary: 42 88% 55%;
+  /* Primary: Vibrant yellow (consultation button) */
+  --primary: 48 100% 50%;
   --primary-foreground: 0 0% 100%;
 
   /* Secondary: Warm wood tone */
@@ -44,7 +44,7 @@ All colors MUST be HSL.
   /* Borders: Warm neutral */
   --border: 30 15% 88%;
   --input: 30 15% 88%;
-  --ring: 42 88% 55%;
+  --ring: 48 100% 50%;
 
   /* Elegant rounded corners */
   --radius: 0.5rem;
@@ -52,12 +52,12 @@ All colors MUST be HSL.
   /* Sidebar */
   --sidebar-background: 0 0% 100%;
   --sidebar-foreground: 25 15% 20%;
-  --sidebar-primary: 42 88% 55%;
+  --sidebar-primary: 48 100% 50%;
   --sidebar-primary-foreground: 0 0% 100%;
   --sidebar-accent: 30 25% 85%;
   --sidebar-accent-foreground: 25 15% 20%;
   --sidebar-border: 30 15% 88%;
-  --sidebar-ring: 42 88% 55%;
+  --sidebar-ring: 48 100% 50%;
 
   /* Custom variables for premium design */
   --wood-tone: 30 45% 60%;
