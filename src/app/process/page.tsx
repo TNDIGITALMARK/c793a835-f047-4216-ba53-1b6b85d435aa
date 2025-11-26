@@ -105,7 +105,7 @@ export default function ProcessPage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/40" />
+          <div className="absolute inset-0 hero-gradient" />
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-white text-center">
