@@ -62,7 +62,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-32 md:pt-40 lg:pt-48">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
